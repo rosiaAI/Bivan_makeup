@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../static/css/main_page.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+            rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+            rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.css"
+            rel="stylesheet"
+    />
+    <!-- MDB -->
+    <script
+            type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.js"
+    ></script>
+    <title>Document</title>
+</head>
+<body>
+
+<div id="popup" class="overlay">
+    <div class="popup">
+        <a class="close" href="#sale_items">&times;</a>
+        <div class="content">
+            Для заказа перейдите в раздел "Доставка и оплата"
+        </div>
+    </div>
+</div>
+
+<div class="main">
+    <div class="header">
+        <div class="header_container">
+            <a class="img_logo" href="/">
+                <div class="logo_png"></div>
+            </a>
+            <div class="contacts_box"></div>
+            <div class="text_container">
+                <span class="underline">
+                    <a class="text_logo" href="/">Как надуть</a>
+                </span>
+                <span class="underline">
+                    <a class="text_logo" href="/">История</a>
+                </span>
+                <span class="underline">
+                    <a class="text_logo" href="/">Доставка и оплата</a>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="main_container">
+        <div class="slider">
+            <!-- Carousel wrapper -->
+            <div id="carouselMaterialStyle" class="carousel slide carousel-fade slider_correction"
+                 data-mdb-ride="carousel">
+                <!-- Indicators -->
+                <div class="carousel-indicators">
+                    <button type="button" data-mdb-target="#carouselMaterialStyle" data-mdb-slide-to="0" class="active"
+                            aria-current="true"
+                            aria-label="Slide 1"></button>
+                    <button type="button" data-mdb-target="#carouselMaterialStyle" data-mdb-slide-to="1"
+                            aria-label="Slide 2"></button>
+                    <button type="button" data-mdb-target="#carouselMaterialStyle" data-mdb-slide-to="2"
+                            aria-label="Slide 3"></button>
+                </div>
+
+                <!-- Inner -->
+                <div class="carousel-inner rounded-5 shadow-4-strong">
+                    <!-- Single item -->
+                    <div class="carousel-item active">
+                        <img src="https://madrobots.ru/upload/medialibrary/a7f/a7f477f4630491b88525ec195426fb78.jpg"
+                             class="d-block w-100"
+                             alt="Sunset Over the City"/>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 style="font-size: 25px">Биван</h5>
+                            <p>Отдых - это так просто</p>
+                        </div>
+                    </div>
+
+                    <!-- Single item -->
+                    <div class="carousel-item">
+                        <img src="https://madrobots.ru/upload/medialibrary/a4e/a4e71ae3aa31c67aec3a701ab10a7373.jpg"
+                             class="d-block w-100"
+                             alt="Canyon at Nigh"/>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Биван</h5>
+                            <p>Отдых - это так просто</p>
+                        </div>
+                    </div>
+
+                    <!-- Single item -->
+                    <div class="carousel-item">
+                        <img src="https://madrobots.ru/upload/medialibrary/441/441b203a90f9c7cab6ea9ff46c620203.jpg"
+                             class="d-block w-100"
+                             alt="Cliff Above a Stormy Sea"/>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Биван</h5>
+                            <p>Отдых - это так просто</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Inner -->
+
+                <!-- Controls -->
+                <button class="carousel-control-prev" type="button" data-mdb-target="#carouselMaterialStyle"
+                        data-mdb-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-mdb-target="#carouselMaterialStyle"
+                        data-mdb-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!-- Carousel wrapper -->
+        </div>
+        <div class="advantages" id="sale_items">
+            <div class="advantages_item">
+                <img src="https://bivan.ru/static/bivan/assets/home/advantages/guarantee.svg"
+                     alt="Гарантия 1&amp;nbsp;год">
+                <span>Гарантия 1&nbsp;год</span>
+            </div>
+            <div class="advantages_item">
+                <img src="https://bivan.ru/static/bivan/assets/home/advantages/service.svg"
+                     alt="Заботливый клиентский сервис">
+                <span>Заботливый клиентский сервис</span>
+            </div>
+            <div class="advantages_item">
+                <img src="https://bivan.ru/static/bivan/assets/home/advantages/identity.svg"
+                     alt="100% подлинность всех изделий">
+                <span>100% подлинность всех изделий</span>
+            </div>
+            <div class="advantages_item">
+                <img src="https://bivan.ru/static/bivan/assets/home/advantages/delivery.svg"
+                     alt="Бесплатная доставка от&amp;nbsp;5&amp;nbsp;000&amp;nbsp;₽" class="home-advantages__icon">
+                <span>Бесплатная доставка</span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="main">
+    <div class="products-list">
+        <div class="container">
+            <div class="sale_box">
+                <div class="border">
+                    <div class="wrap">
+                        <div class="product-wrap">
+                            <a href=""><img
+                                    src="https://api.bivan.ru/upload/iblock/57c/57c2c0fc16c26ff5c829b048c69ab470.jpg"></a>
+                        </div>
+                        <div class="loop-action">
+                            <a href="#popup" class="loop-add-to-cart">Купить</a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="stars"></div>
+                        <h3 class="product-title">Биван Классический</h3>
+                        <div class="price">&#8381; 2590</div>
+                    </div>
+                </div>
+                <div class="border">
+                    <div class="wrap">
+                        <div class="product-wrap">
+                            <a href=""><img
+                                    src="https://api.bivan.ru/upload/iblock/abe/abebb7f4bdd9caccfcc2d779c7d6781c.jpg"></a>
+                        </div>
+                        <div class="loop-action">
+                            <a href="#popup" class="loop-add-to-cart">Купить</a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="stars"></div>
+                        <h3 class="product-title">Биван Камуфляж</h3>
+                        <div class="price">&#8381; 2990</div>
+                    </div>
+                </div>
+                <div class="border">
+                    <div class="wrap">
+                        <div class="product-wrap">
+                            <a href=""><img
+                                    src="https://api.bivan.ru/upload/iblock/44b/44bcf1be2cf77dd26e1b6a9a38c072af.jpg"></a>
+                        </div>
+                        <div class="loop-action">
+                            <a href="#popup" class="loop-add-to-cart">Купить</a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="stars"></div>
+                        <h3 class="product-title">Биван 2.0</h3>
+                        <div class="price">&#8381; 3490</div>
+                    </div>
+                </div>
+                <div class="border">
+                    <div class="wrap">
+                        <div class="product-wrap">
+                            <a href=""><img
+                                    src="https://api.bivan.ru/upload/iblock/89f/89ff2bd980e727459fa63d6414a0f9a4.jpg"></a>
+                        </div>
+                        <div class="loop-action">
+                            <a href="#popup" class="loop-add-to-cart">Купить</a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="stars"></div>
+                        <h3 class="product-title">Биван 2.0 Камуфляж</h3>
+                        <div class="price">&#8381; 3990</div>
+                    </div>
+                </div>
+                <div class="border">
+                    <div class="wrap">
+                        <div class="product-wrap">
+                            <a href=""><img
+                                    src="https://api.bivan.ru/upload/iblock/cef/cefef69aa484fe30fa9879c21ea97ef8.jpg"></a>
+                        </div>
+                        <div class="loop-action">
+                            <a href="#popup" class="loop-add-to-cart">Купить</a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="stars"></div>
+                        <h3 class="product-title">Ремкомплект для Бивана</h3>
+                        <div class="price">&#8381; 490</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
