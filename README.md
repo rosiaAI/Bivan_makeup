@@ -13,6 +13,7 @@ Project for practice in layout, repetition of an online store.
 - [Installation instruction](#installation-instruction)
 
 ## Description of features
+There's a cool slider here, as well as product cards that I can be proud of. This was the first “test of the pen” for me as a beginning frontend specialist.
 
 ## Demonstration
 #### Main page
