@@ -21,7 +21,7 @@ Amazing slider:
 Great product cards:
 ![image](https://github.com/rosiaAI/Bivan_makeup/assets/97724072/f69bcca7-abe7-47d6-87c9-98a3e75d2e20)
 
-#### Video demonstration
+#### Video demonstration (click to view)
 [<img src="https://img.youtube.com/vi/dEf39SbJFN4/maxresdefault.jpg" width="100%">](https://youtu.be/dEf39SbJFN4)
 
 ## Installation instruction
